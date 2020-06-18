@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+.intro{
+  font-family: 'Pacifico', cursive;
+  font-size: 500%;
+  text-align: center;
+  color: #355C7D;
+  padding-top: 2%;
+}
+
+h2{
+  font-family: 'Lobster', cursive;
+  font-size: 275%;
+  color: #FC0388;
+}
+
+body{
+  background-color: #F8B195;
+}
+
+#bulb{
+  height: 45%;
+  position:absolute;
+  right:4%;
+  transform: rotate(15deg);
+  animation-name: bulb;
+  animation-iteration-count: infinite;
+}
+
+.main{
+  text-align: center;
+  font-size: 150%;
+  font-family: cursive;
+}
+
+.im{
+  text-align:center;
+  font-size: 150%;
+  font-family: cursive;
+}
+
+hr{
+  border: dashed #F67280 4px;
+  width: 25%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#hello{
+  height: 22%;
+  transform: rotate(350deg);
+  padding: 8%;
+  position: absolute;
+  padding-left: 4%;
+  animation-name: hello;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes hello{
+  0%{ transform: rotate(25deg);}
+  50%{ transform: rotate(-25deg);}
+  100%{ transform: rotate(25deg);}
+}
+
+a:hover{
+  color: #ff004e;
+  text-decoration: underline;
+}
+
+.contact{
+  text-align:center;
+  font-size: 150%;
+  font-family: cursive;
+}
+
+footer{
+  margin-top: 1%;
+  background-image: url('https://i.pinimg.com/originals/ec/70/b4/ec70b4bc869baf22f4ddf4706cf26980.jpg')
+}
+
+b{
+  color: #F00;
+}
+
+i{
+  color:navy;
+}
+
+i:hover{
+  background-color: coral;
+}
+
+a{
+  text-decoration: none;
+}
+
+#jk{
+  border-radius: 10%;
+  height: 220px;
+  margin-bottom: 4%;
+}
